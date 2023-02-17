@@ -1,0 +1,9 @@
+{
+  "name": "com.fy.hotfix",
+  "displayName": "hotfix",
+  "description": "this is my hotfix",
+  "version": "1.0.0",
+  "dependencies": {
+    "com.unity.addressables": "1.18.19"
+  }
+}
