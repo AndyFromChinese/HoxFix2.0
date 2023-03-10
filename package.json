@@ -10,10 +10,5 @@
     "com.unity.modules.jsonserialize": "1.0.0",
     "com.unity.modules.unitywebrequest": "1.0.0",
     "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
-  },
-   "repository": {
-    "url": "https://github.com/AndyFromChinese/HoxFix2.0.git",
-    "type": "git",
-    "revision": "eb086c67e6a325f887f087e89a7be9a364fcfe4d"
-  },
+  }
 }
