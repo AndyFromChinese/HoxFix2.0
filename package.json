@@ -11,4 +11,8 @@
     "com.unity.modules.unitywebrequest": "1.0.0",
     "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
   }
+   "author": {
+    "name": "MateChina",
+    "url": "https://github.com/AndyFromChinese/HoxFix2.0.git"
+  }
 }
