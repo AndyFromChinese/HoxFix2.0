@@ -57,7 +57,7 @@ namespace UnityEditor.AddressableAssets.Build.DataBuilders
             Directory.CreateDirectory(directory);
 #if UNITY_2019_2_OR_NEWER // PackageManager package inspection APIs didn't exist until 2019.2
             PackageManager.PackageInfo info = PackageManager.PackageInfo.FindForAssembly(typeof(BuildScriptBase).Assembly);
-            log.AddMetaData(info.name, info.version);
+            if(info != null) log.AddMetaData(info.name, info.version);
 #endif
             File.WriteAllText(Path.Combine(directory, "AddressablesBuildTEP.json"), log.FormatForTraceEventProfiler());
         }
