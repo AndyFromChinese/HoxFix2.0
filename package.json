@@ -1,7 +1,7 @@
 {
   "name": "com.fy.hotfix",
   "displayName": "hotfix",
-  "description": "this is my hotfix",
+  "description": "this is hotfix",
   "version": "2.0.0",
   "dependencies": {
     "com.unity.scriptablebuildpipeline": "1.19.2",
