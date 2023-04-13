@@ -1665,7 +1665,7 @@ namespace UnityEngine.AddressableAssets
             m_Addressables.ClearResourceLocators();
         }
 
-        public static void setRuntimeLoadIp(string runtimePath)
+        public static void SetRuntimeLoadIp(string runtimePath)
         {
             m_Addressables.SetRunTimeLoadIp(runtimePath);
         }
